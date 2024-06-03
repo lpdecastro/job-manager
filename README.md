@@ -16,15 +16,13 @@ authorization using Spring Security with OAuth 2.0 Resource Server and JWT secur
 - [9 - Other Projects](#9---other-projects)
 
 ## 1 - Features
-- **Authentication**: OAuth 2.0 with JWT and RSA keys for secure registration, login, and role-based access control.
+- **Authentication**: OAuth 2.0 with JWT and RSA keys for secure registration, login, and role-based access.
 - **Job Listings**: Create, update, delete, and search for job listings.
-- **Job Applications**: Submit and manage job applications.
+- **Job Applications**: Submit and manage job applications, including upload/download of cover letter files.
 - **Saved Jobs**: Save and manage job listings.
 - **Companies**: CRUD operations for company profiles.
-- **Recruiters**: CRUD operations for recruiter profiles, including upload/download of photos, resumes, and cover 
-  letters in PDF.
-- **Candidates**: CRUD operations for candidate profiles, including upload/download of photos, resumes, and cover 
-  letters in PDF.
+- **Recruiters**: CRUD operations for recruiter profiles, including upload/download of resumes files.
+- **Candidates**: CRUD operations for candidate profiles, including upload/download of resumes files.
 
 ## 2 - ER Diagram
 ![ER Diagram](assets/er-diagram.png)
